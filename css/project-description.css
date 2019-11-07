@@ -47,7 +47,7 @@ a:hover.dropdown-nav-link {
 	.btn-search {
 		position: absolute;
 		right: 4%;
-		top: 90%;
+		top: 74%; /* different from rest */
 	}
 	li.dropdown {
 		padding: 8px 0 16px 0;
