@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+}
+
+/* main-navigation credits: https://bootsnipp.com/snippets/kl5rW */
+
+#wrapper {
+	padding: 90px 15px;
+}
+.navbar-expand-lg .navbar-nav.side-nav {
+	flex-direction: column;
+}
+.header-top {
+	box-shadow: 0 3px 5px rgba(0,0,0,.1);
+}
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .dropdown {
+    color: rgb(255,255,255) !important;
+}
+.animate {
+	-webkit-transition:all .3s ease-in-out;
+	-moz-transition:all .3s ease-in-out;
+	-o-transition:all .3s ease-in-out;
+	-ms-transition:all .3s ease-in-out;
+	transition:all .3s ease-in-out;
+}
+form.navbar-form.navbar-left {
+	margin: 0;
+}
+a.dropdown-toggle {
+	color: white;
+}
+a.dropdown-nav-link {
+	color: black;
+	text-decoration: none;
+    background-color: transparent;
+}
+a:hover.dropdown-nav-link {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+@media screen and (min-width: 0px) and (max-width: 991px) {
+	span.navbar-toggler-icon.leftmenutrigger {
+		display: none;
+	}
+	.btn-search {
+		position: absolute;
+		right: 4%;
+		top: 90%;
+	}
+	li.dropdown {
+		padding: 8px 0 16px 0;
+	}
+	ul.dropdown-menu.show {
+		padding: 1%;
+    }
+    #wrapper {
+		padding: 90px 15px 15px 15px; 
+	}
+}
+@media screen and (min-width: 992px) {
+	.leftmenutrigger {
+		display: block;
+		margin: 7px 20px 4px 0;
+		cursor: pointer;
+	}
+	#wrapper {
+		padding: 90px 15px 15px 15px; 
+	}
+	.navbar-nav.side-nav.open {
+		left:0;
+	}
+	.navbar-nav.side-nav {
+		background: #585f66;
+		box-shadow: 2px 1px 2px rgba(0,0,0,.1);
+		position:fixed;
+		top:56px;
+		flex-direction: column!important;
+		left:-220px;
+		width:200px;
+		overflow-y:auto;
+		bottom:0;
+		overflow-x:hidden;
+		padding-bottom:40px;
+	}
+	.btn-search {
+		position: absolute;
+		right: 1%;
+		top: 25%;
+	}
+	li.dropdown {
+		margin-top: 3.5%;
+		padding-right: 20%;
+	}
+	ul.dropdown-menu.show {
+		padding: 5%;
+    }
+}
+
+/*DPR*/
+.margin-b30 {
+    margin-bottom: 30px;
+}
+
+/* Footer Credits: https://bootsnipp.com/snippets/rlXdE */
+footer:before {
+    content: " ";
+    border-top: 1px solid #b6d3e9;
+    display: block;
+}
+footer a {
+    color: inherit;
+    text-decoration: none !important;
+    -webkit-text-decoration-skip: objects;
+}
+footer ul.social li{
+	padding: 3px 0;
+}
+footer ul.legal li{
+	padding-left: 1em;
+}
+footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	/* -webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease; */
+}
+footer ul.social li:hover a i {
+	/* font-size:30px;
+    margin-top:-10px; */
+    color: inherit;
+    text-decoration: none !important;
+    -webkit-text-decoration-skip: objects;
+}
+footer ul.social li a {
+	color: inherit;
+}
+footer ul.social li a:hover{
+	color: inherit;
+}
